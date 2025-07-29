@@ -113,11 +113,11 @@
       "notes": "",
       "tags": ["Seafood", "Thai Food"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/kkkp-main.jpg",
+      "imageUrl": "/images/kkkp-main.jpg",
       "gallery": [
-        "/src/data/images/kkkp-main.jpg",
-        "/src/data/images/kkkp-1.jpeg",
-        "/src/data/images/kkkp-2.jpeg"
+        "/images/kkkp-main.jpg",
+        "/images/kkkp-1.jpeg",
+        "/images/kkkp-2.jpeg"
       ],
       "ratings": {"taste": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Kub Kao Kub Pla is known for its fresh seafood and authentic Thai dishes. The restaurant offers a casual yet elegant atmosphere perfect for enjoying traditional Thai flavors."
@@ -250,12 +250,12 @@
       "notes": "",
       "tags": ["Unique Experiences"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/cat-cafe-main.jpeg",
+      "imageUrl": "/images/cat-cafe-main.jpeg",
       "gallery": [
-        "/src/data/images/cat-cafe-main.jpeg",
-        "/src/data/images/cat-cafe-1.jpeg",
-        "/src/data/images/cat-cafe-2.jpeg",
-        "/src/data/images/cat-cafe-3.jpeg"
+        "/images/cat-cafe-main.jpeg",
+        "/images/cat-cafe-1.jpeg",
+        "/images/cat-cafe-2.jpeg",
+        "/images/cat-cafe-3.jpeg"
       ],
       "ratings": {"taste": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Asok Pethouse Cat Cafe offers a relaxing environment where visitors can enjoy coffee while spending time with friendly cats. The cafe provides a perfect escape for cat lovers."
@@ -321,10 +321,10 @@
       "notes": "",
       "tags": ["Cafes", "Breakfast", "Thai Food"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/doi-soi-12-main.png",
+      "imageUrl": "/images/doi-soi-12-main.png",
       "gallery": [
-        "/src/data/images/doi-soi-12-main.png",
-        "/src/data/images/doi-soi-12-1.jpg"
+        "/images/doi-soi-12-main.png",
+        "/images/doi-soi-12-1.jpg"
       ],
       "favorites": {"brian": true, "orn": true},
       "ratings": {"taste": 4.0, "experience": 4.0, "value": 4.0},
@@ -338,12 +338,12 @@
       "notes": "",
       "tags": ["All-You-Can-Eat", "Thai Food", "Seafood", "Views"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/baiyoke-main.jpg",
+      "imageUrl": "/images/baiyoke-main.jpg",
       "gallery": [
-        "/src/data/images/baiyoke-main.jpg",
-        "/src/data/images/baiyoke-1.jpg",
-        "/src/data/images/baiyoke-2.jpg",
-        "/src/data/images/baiyoke-3.jpg"
+        "/images/baiyoke-main.jpg",
+        "/images/baiyoke-1.jpg",
+        "/images/baiyoke-2.jpg",
+        "/images/baiyoke-3.jpg"
       ],
       "ratings": {"taste": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Baiyoke Balcony Buffet offers an impressive all-you-can-eat experience with stunning city views from the high-rise location. The buffet features fresh seafood and authentic Thai dishes."
@@ -356,11 +356,11 @@
       "notes": "",
       "tags": ["All-You-Can-Eat", "Thai Food", "Seafood", "Views"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/vantage-point-main.png",
+      "imageUrl": "/images/vantage-point-main.png",
       "gallery": [
-        "/src/data/images/vantage-point-main.png",
-        "/src/data/images/vantage-point-1.jpg",
-        "/src/data/images/vantage-point-2.png"
+        "/images/vantage-point-main.png",
+        "/images/vantage-point-1.jpg",
+        "/images/vantage-point-2.png"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Vantage Point One offers an excellent all-you-can-eat experience with fresh seafood and authentic Thai cuisine. The restaurant provides great value for food enthusiasts."
@@ -373,11 +373,11 @@
       "notes": "",
       "tags": ["All-You-Can-Eat", "Thai Food", "Seafood"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/espresso-main.jpg",
+      "imageUrl": "/images/espresso-main.jpg",
       "gallery": [
-        "/src/data/images/espresso-main.jpg",
-        "/src/data/images/espresso-1.jpg",
-        "/src/data/images/espresso-2.jpg"
+        "/images/espresso-main.jpg",
+        "/images/espresso-1.jpg",
+        "/images/espresso-2.jpg"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Espresso offers a satisfying all-you-can-eat experience with fresh seafood and traditional Thai dishes. The restaurant provides excellent value for quality dining."
@@ -390,11 +390,11 @@
       "notes": "",
       "tags": ["All-You-Can-Eat", "Thai Food", "Seafood"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/wisdom-main.jpg",
+      "imageUrl": "/images/wisdom-main.jpg",
       "gallery": [
-        "/src/data/images/wisdom-main.jpg",
-        "/src/data/images/wisdom-1.jpg",
-        "/src/data/images/wisdom-2.jpg"
+        "/images/wisdom-main.jpg",
+        "/images/wisdom-1.jpg",
+        "/images/wisdom-2.jpg"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Wisdom International Buffet offers a diverse all-you-can-eat experience with fresh seafood and authentic Thai cuisine. The restaurant provides excellent variety and quality."
@@ -407,11 +407,11 @@
       "notes": "",
       "tags": ["Views"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/castello-main.jpg",
+      "imageUrl": "/images/castello-main.jpg",
       "gallery": [
-        "/src/data/images/castello-main.jpg",
-        "/src/data/images/castello-1.jpg",
-        "/src/data/images/castello-2.jpg"
+        "/images/castello-main.jpg",
+        "/images/castello-1.jpg",
+        "/images/castello-2.jpg"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Castello di Bellagio offers a unique dining experience with beautiful views and an elegant atmosphere. The restaurant provides a memorable dining experience with Italian-inspired cuisine."
@@ -424,11 +424,11 @@
       "notes": "",
       "tags": ["Cafes", "Breakfast"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/breakfast-story-main.jpg",
+      "imageUrl": "/images/breakfast-story-main.jpg",
       "gallery": [
-        "/src/data/images/breakfast-story-main.jpg",
-        "/src/data/images/breakfast-story-1.jpg",
-        "/src/data/images/breakfast-story-2.jpg"
+        "/images/breakfast-story-main.jpg",
+        "/images/breakfast-story-1.jpg",
+        "/images/breakfast-story-2.jpg"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Breakfast Story offers excellent breakfast options in a cozy cafe setting. The restaurant is perfect for starting your day with quality food and a comfortable atmosphere."
@@ -441,11 +441,11 @@
       "notes": "",
       "tags": ["All-You-Can-Eat", "Thai Food","Seafood", "Views"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/the-dining-room-main.jpg",
+      "imageUrl": "/images/the-dining-room-main.jpg",
       "gallery": [
-        "/src/data/images/the-dining-room-main.jpg",
-        "/src/data/images/the-dining-room-1.jpg",
-        "/src/data/images/the-dining-room-2.jpg"
+        "/images/the-dining-room-main.jpg",
+        "/images/the-dining-room-1.jpg",
+        "/images/the-dining-room-2.jpg"
       ],
       "ratings": {"taste": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "The Dining Room offers an elegant all-you-can-eat experience with fresh seafood and authentic Thai cuisine. The restaurant provides beautiful views and excellent service."
@@ -561,11 +561,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/asiatique-main.jpg",
+      "imageUrl": "/images/asiatique-main.jpg",
       "gallery": [
-        "/src/data/images/asiatique-main.jpg",
-        "/src/data/images/asiatique-1.jpg",
-        "/src/data/images/asiatique-2.jpg"
+        "/images/asiatique-main.jpg",
+        "/images/asiatique-1.jpg",
+        "/images/asiatique-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Asiatique is a popular night market and entertainment complex located along the Chao Phraya River. The venue offers shopping, dining, and cultural experiences in a beautiful riverside setting."
@@ -578,13 +578,13 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/yunomori-main.jpeg",
+      "imageUrl": "/images/yunomori-main.jpeg",
       "gallery": [
-        "/src/data/images/yunomori-main.jpeg",
-        "/src/data/images/yunomori-1.jpg",
-        "/src/data/images/yunomori-2.jpg",
-        "/src/data/images/yunomori-3.jpg",
-        "/src/data/images/yunomori-4.jpg"
+        "/images/yunomori-main.jpeg",
+        "/images/yunomori-1.jpg",
+        "/images/yunomori-2.jpg",
+        "/images/yunomori-3.jpg",
+        "/images/yunomori-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Yunomori Onsen offers authentic Japanese hot spring experiences in the heart of Bangkok. The spa provides a peaceful retreat with traditional onsen baths and relaxation areas."
@@ -597,11 +597,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/ais-esports-main.jpg",
+      "imageUrl": "/images/ais-esports-main.jpg",
       "gallery": [
-        "/src/data/images/ais-esports-main.jpg",
-        "/src/data/images/ais-esports-1.webp",
-        "/src/data/images/ais-esports-2.jpg"
+        "/images/ais-esports-main.jpg",
+        "/images/ais-esports-1.webp",
+        "/images/ais-esports-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "AIS eSports Studio offers a unique gaming experience with state-of-the-art facilities. The venue provides an exciting environment for gaming enthusiasts and esports events."
@@ -614,10 +614,10 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/khao-san-main.jpeg",
+      "imageUrl": "/images/khao-san-main.jpeg",
       "gallery": [
-        "/src/data/images/khao-san-main.jpeg",
-        "/src/data/images/khao-san-1.jpg"
+        "/images/khao-san-main.jpeg",
+        "/images/khao-san-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Khao San Road is a famous backpacker street known for its vibrant nightlife, street food, and cultural diversity. The area offers a unique blend of local and international experiences."
@@ -630,11 +630,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/institute-main.jpg",
+      "imageUrl": "/images/institute-main.jpg",
       "gallery": [
-        "/src/data/images/institute-main.jpg",
-        "/src/data/images/institute-1.jpg",
-        "/src/data/images/institute-2.jpg"
+        "/images/institute-main.jpg",
+        "/images/institute-1.jpg",
+        "/images/institute-2.jpg"
       ],
       "ratings": {"enjoyment": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "The Institute of Marine Science offers educational experiences and insights into marine life and oceanography. The institute provides fascinating exhibits and learning opportunities."
@@ -647,11 +647,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/7-eleven-main.jpg",
+      "imageUrl": "/images/7-eleven-main.jpg",
       "gallery": [
-        "/src/data/images/7-eleven-main.jpg",
-        "/src/data/images/7-eleven-1.jpg",
-        "/src/data/images/7-eleven-2.jpg"
+        "/images/7-eleven-main.jpg",
+        "/images/7-eleven-1.jpg",
+        "/images/7-eleven-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "7-Eleven in Pattaya offers convenient shopping and local snacks. The store provides essential items and a glimpse into everyday Thai convenience store culture."
@@ -664,11 +664,11 @@
       "notes": "",
       "tags": ["Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/underwater-world-main.jpg",
+      "imageUrl": "/images/underwater-world-main.jpg",
       "gallery": [
-        "/src/data/images/underwater-world-main.jpg",
-        "/src/data/images/underwater-world-1.jpg",
-        "/src/data/images/underwater-world-2.jpg"
+        "/images/underwater-world-main.jpg",
+        "/images/underwater-world-1.jpg",
+        "/images/underwater-world-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Underwater World Pattaya offers an immersive marine life experience with various sea creatures and interactive exhibits. The aquarium provides educational entertainment for all ages."
@@ -681,10 +681,10 @@
       "notes": "",
       "tags": ["Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/dinosaur-kingdom-main.jpg",
+      "imageUrl": "/images/dinosaur-kingdom-main.jpg",
       "gallery": [
-        "/src/data/images/dinosaur-kingdom-main.jpg",
-        "/src/data/images/dinosaur-kingdom-1.jpg"
+        "/images/dinosaur-kingdom-main.jpg",
+        "/images/dinosaur-kingdom-1.jpg"
       ],
       "ratings": {"enjoyment": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Pattaya Dinosaur Kingdom offers a prehistoric adventure with life-sized dinosaur exhibits and educational experiences. The park provides fun and learning for families and dinosaur enthusiasts."
@@ -697,12 +697,12 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/jurassic-world-main.png",
+      "imageUrl": "/images/jurassic-world-main.png",
       "gallery": [
-        "/src/data/images/jurassic-world-main.png",
-        "/src/data/images/jurassic-world-1.jpg",
-        "/src/data/images/jurassic-world-2.webp",
-        "/src/data/images/jurassic-world-3.jpg"
+        "/images/jurassic-world-main.png",
+        "/images/jurassic-world-1.jpg",
+        "/images/jurassic-world-2.webp",
+        "/images/jurassic-world-3.jpg"
       ],
       "ratings": {"enjoyment": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Jurassic World: The Experience offers an immersive dinosaur adventure with interactive exhibits and thrilling attractions. The experience brings the movie franchise to life."
@@ -727,10 +727,10 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/asiatique-sky-main.jpg",
+      "imageUrl": "/images/asiatique-sky-main.jpg",
       "gallery": [
-        "/src/data/images/asiatique-sky-main.jpg",
-        "/src/data/images/asiatique-sky-1.jpg"
+        "/images/asiatique-sky-main.jpg",
+        "/images/asiatique-sky-1.jpg"
       ],
       "ratings": {"enjoyment": 0.0, "experience": 0.0, "value": 0.0},
       "commentary": "Asiatique Sky offers breathtaking views of the Chao Phraya River and Bangkok skyline. The observation deck provides a perfect spot for photography and romantic evenings."
@@ -743,7 +743,7 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/mystery-mansion-main.jpg",
+      "imageUrl": "/images/mystery-mansion-main.jpg",
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Mystery Mansion offers an exciting escape room experience with challenging puzzles and immersive storytelling. The venue provides thrilling entertainment for groups and families."
     },
@@ -779,10 +779,10 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/ganesha-main.jpg",
+      "imageUrl": "/images/ganesha-main.jpg",
       "gallery": [
-        "/src/data/images/ganesha-main.jpg",
-        "/src/data/images/ganesha-1.jpg"
+        "/images/ganesha-main.jpg",
+        "/images/ganesha-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Ganesha Temple is a beautiful Hindu temple dedicated to Lord Ganesha. The temple offers a peaceful spiritual experience and showcases Indian cultural heritage in Thailand."
@@ -807,13 +807,13 @@
       "notes": "",
       "tags": ["Best Thai Food"],
       "type": "destination",
-      "imageUrl": "/src/data/images/chinatown-main.jpg",
+      "imageUrl": "/images/chinatown-main.jpg",
       "gallery": [
-        "/src/data/images/chinatown-main.jpg",
-        "/src/data/images/chinatown-1.jpg",
-        "/src/data/images/chinatown-2.jpg",
-        "/src/data/images/chinatown-3.jpg",
-        "/src/data/images/chinatown-4.jpg"
+        "/images/chinatown-main.jpg",
+        "/images/chinatown-1.jpg",
+        "/images/chinatown-2.jpg",
+        "/images/chinatown-3.jpg",
+        "/images/chinatown-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Chinatown Yaowarat is a vibrant cultural district known for its authentic Chinese-Thai cuisine and bustling street markets. The area offers a rich cultural experience and excellent food."
@@ -826,11 +826,11 @@
       "notes": "",
       "tags": ["Unique Experiences", "Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/bang-nam-main.jpg",
+      "imageUrl": "/images/bang-nam-main.jpg",
       "gallery": [
-        "/src/data/images/bang-nam-main.jpg",
-        "/src/data/images/bang-nam-1.jpg",
-        "/src/data/images/bang-nam-2.jpg"
+        "/images/bang-nam-main.jpg",
+        "/images/bang-nam-1.jpg",
+        "/images/bang-nam-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Bang Nam Phueng Floating Market offers an authentic local experience with traditional floating market culture. The market provides fresh produce, local food, and a glimpse into traditional Thai commerce."
@@ -843,14 +843,14 @@
       "notes": "",
       "tags": ["Unique Experiences"],
       "type": "destination",
-      "imageUrl": "/src/data/images/moca-main.jpeg",
+      "imageUrl": "/images/moca-main.jpeg",
       "gallery": [
-        "/src/data/images/moca-main.jpeg",
-        "/src/data/images/moca-1.jpg",
-        "/src/data/images/moca-2.webp",
-        "/src/data/images/moca-3.webp",
-        "/src/data/images/moca-4.jpg",
-        "/src/data/images/moca-5.jpg"
+        "/images/moca-main.jpeg",
+        "/images/moca-1.jpg",
+        "/images/moca-2.webp",
+        "/images/moca-3.webp",
+        "/images/moca-4.jpg",
+        "/images/moca-5.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "The Museum of Contemporary Art showcases modern Thai art and international contemporary works. The museum provides an inspiring cultural experience with rotating exhibitions and permanent collections."
@@ -863,13 +863,13 @@
       "notes": "",
       "tags": ["Unique Experiences"],
       "type": "destination",
-      "imageUrl": "/src/data/images/bacc-main.jpeg",
+      "imageUrl": "/images/bacc-main.jpeg",
       "gallery": [
-        "/src/data/images/bacc-main.jpeg",
-        "/src/data/images/bacc-1.jpg",
-        "/src/data/images/bacc-2.jpg",
-        "/src/data/images/bacc-3.jpg",
-        "/src/data/images/bacc-4.jpg"
+        "/images/bacc-main.jpeg",
+        "/images/bacc-1.jpg",
+        "/images/bacc-2.jpg",
+        "/images/bacc-3.jpg",
+        "/images/bacc-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Bangkok Art and Culture Centre is a vibrant hub for contemporary art and cultural events. The center offers exhibitions, performances, and creative workshops in a modern architectural setting."
@@ -882,12 +882,12 @@
       "notes": "",
       "tags": ["Unique Experiences", "Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/pattaya-floating-market-main.jpg",
+      "imageUrl": "/images/pattaya-floating-market-main.jpg",
       "gallery": [
-        "/src/data/images/pattaya-floating-market-main.jpg",
-        "/src/data/images/pattaya-floating-market-1.jpg",
-        "/src/data/images/pattaya-floating-market-2.jpg",
-        "/src/data/images/pattaya-floating-market-3.jpg"
+        "/images/pattaya-floating-market-main.jpg",
+        "/images/pattaya-floating-market-1.jpg",
+        "/images/pattaya-floating-market-2.jpg",
+        "/images/pattaya-floating-market-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Pattaya Floating Market offers a cultural experience with traditional floating market activities and local crafts. The market provides authentic Thai food and shopping opportunities."
@@ -912,12 +912,12 @@
       "notes": "",
       "tags": ["Unique Experiences"],
       "type": "destination",
-      "imageUrl": "/src/data/images/wat-arun-main.jpg",
+      "imageUrl": "/images/wat-arun-main.jpg",
       "gallery": [
-        "/src/data/images/wat-arun-main.jpg",
-        "/src/data/images/wat-arun-1.jpg",
-        "/src/data/images/wat-arun-2.jpg",
-        "/src/data/images/wat-arun-3.jpg"
+        "/images/wat-arun-main.jpg",
+        "/images/wat-arun-1.jpg",
+        "/images/wat-arun-2.jpg",
+        "/images/wat-arun-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Wat Arun, the Temple of Dawn, is one of Bangkok's most iconic landmarks with its stunning spires and riverside location. The temple offers breathtaking views and rich cultural history."
@@ -966,10 +966,10 @@
       "notes": "",
       "tags": ["Views", "Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/nong-nooch-main.jpg",
+      "imageUrl": "/images/nong-nooch-main.jpg",
       "gallery": [
-        "/src/data/images/nong-nooch-main.jpg",
-        "/src/data/images/nong-nooch-1.jpg"
+        "/images/nong-nooch-main.jpg",
+        "/images/nong-nooch-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Nong Nooch Botanical Garden is a stunning tropical paradise with beautifully landscaped gardens, cultural shows, and diverse plant collections. The garden offers a perfect escape into nature."
@@ -982,12 +982,12 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/khao-yai-main.jpg",
+      "imageUrl": "/images/khao-yai-main.jpg",
       "gallery": [
-        "/src/data/images/khao-yai-main.jpg",
-        "/src/data/images/khao-yai-1.jpg",
-        "/src/data/images/khao-yai-2.jpg",
-        "/src/data/images/khao-yai-3.jpg"
+        "/images/khao-yai-main.jpg",
+        "/images/khao-yai-1.jpg",
+        "/images/khao-yai-2.jpg",
+        "/images/khao-yai-3.jpg"
       ],
       "favorites": {"orn": true},
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
@@ -1001,11 +1001,11 @@
       "notes": "",
       "tags": ["Nature", "Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/la-na-wild-main.jpg",
+      "imageUrl": "/images/la-na-wild-main.jpg",
       "gallery": [
-        "/src/data/images/la-na-wild-main.jpg",
-        "/src/data/images/la-na-wild-1.jpg",
-        "/src/data/images/la-na-wild-2.jpg"
+        "/images/la-na-wild-main.jpg",
+        "/images/la-na-wild-1.jpg",
+        "/images/la-na-wild-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "La Na Wild offers a unique hotel experience with natural surroundings and beautiful views. The hotel provides a perfect blend of luxury and nature for a memorable stay."
@@ -1018,12 +1018,12 @@
       "notes": "",
       "tags": ["Nature", "Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/cloud-main.jpg",
+      "imageUrl": "/images/cloud-main.jpg",
       "gallery": [
-        "/src/data/images/cloud-main.jpg",
-        "/src/data/images/cloud-1.jpg",
-        "/src/data/images/cloud-2.jpg",
-        "/src/data/images/cloud-3.jpg"
+        "/images/cloud-main.jpg",
+        "/images/cloud-1.jpg",
+        "/images/cloud-2.jpg",
+        "/images/cloud-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "The Cloud offers a unique hotel experience with stunning views and natural surroundings. The hotel provides a peaceful retreat with modern amenities and beautiful landscapes."
@@ -1036,12 +1036,12 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/somerset-main.jpg",
+      "imageUrl": "/images/somerset-main.jpg",
       "gallery": [
-        "/src/data/images/somerset-main.jpg",
-        "/src/data/images/somerset-1.jpg",
-        "/src/data/images/somerset-2.jpg",
-        "/src/data/images/somerset-3.jpg"
+        "/images/somerset-main.jpg",
+        "/images/somerset-1.jpg",
+        "/images/somerset-2.jpg",
+        "/images/somerset-3.jpg"
       ],
       "favorites": {"brian": true, "orn": true},
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
@@ -1053,13 +1053,13 @@
       "address": "140, 1 Sukhumvit 20 Alley, Khlong Toei, Bangkok 10110, Thailand",
       "category": "Hotels",
       "notes": "",
-      "tags": [],
+      "tags": ["Affordable"],
       "type": "destination",
-      "imageUrl": "/src/data/images/aspira-20-main.jpg",
+      "imageUrl": "/images/aspira-20-main.jpg",
       "gallery": [
-        "/src/data/images/aspira-20-main.jpg",
-        "/src/data/images/aspira-20-1.jpg",
-        "/src/data/images/aspira-20-2.jpg"
+        "/images/aspira-20-main.jpg",
+        "/images/aspira-20-1.jpg",
+        "/images/aspira-20-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Aspira Suites Sukhumvit 20 offers comfortable and convenient accommodations in the heart of Bangkok. The hotel provides modern amenities and excellent service for business and leisure travelers."
@@ -1070,13 +1070,13 @@
       "address": "14/1 Soi Sukhumvit 33, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
       "category": "Hotels",
       "notes": "",
-      "tags": [],
+      "tags": ["Affordable"],
       "type": "destination",
-      "imageUrl": "/src/data/images/aspira-33-main.jpg",
+      "imageUrl": "/images/aspira-33-main.jpg",
       "gallery": [
-        "/src/data/images/aspira-33-main.jpg",
-        "/src/data/images/aspira-33-1.jpg",
-        "/src/data/images/aspira-33-2.jpg"
+        "/images/aspira-33-main.jpg",
+        "/images/aspira-33-1.jpg",
+        "/images/aspira-33-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Aspira Suites Sukhumvit 33 offers comfortable accommodations in a convenient location. The hotel provides modern amenities and excellent service for a pleasant stay in Bangkok."
@@ -1089,14 +1089,14 @@
       "notes": "",
       "tags": ["Nature", "Views", "Unique Experiences"],
       "type": "destination",
-      "imageUrl": "/src/data/images/tasana-5.jpg",
+      "imageUrl": "/images/tasana-5.jpg",
       "gallery": [
-        "/src/data/images/tasana-5.jpg",
-        "/src/data/images/tasana-1.jpg",
-        "/src/data/images/tasana-2.jpg",
-        "/src/data/images/tasana-3.jpg",
-        "/src/data/images/tasana-4.jpg",
-        "/src/data/images/tasana-main.jpg"
+        "/images/tasana-5.jpg",
+        "/images/tasana-1.jpg",
+        "/images/tasana-2.jpg",
+        "/images/tasana-3.jpg",
+        "/images/tasana-4.jpg",
+        "/images/tasana-main.jpg"
       ],
       "favorites": {"brian": true, "orn": true},
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
@@ -1110,14 +1110,14 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/kingpower-2.jpg",
+      "imageUrl": "/images/kingpower-2.jpg",
       "gallery": [
-        "/src/data/images/kingpower-2.jpg",
-        "/src/data/images/kingpower-1.jpg",
-        "/src/data/images/kingpower-3.jpg",
-        "/src/data/images/kingpower-main.jpg",
-        "/src/data/images/kingpower-4.jpg",
-        "/src/data/images/kingpower-5.jpg"
+        "/images/kingpower-2.jpg",
+        "/images/kingpower-1.jpg",
+        "/images/kingpower-3.jpg",
+        "/images/kingpower-main.jpg",
+        "/images/kingpower-4.jpg",
+        "/images/kingpower-5.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "King Power Mahanakhon offers breathtaking 360-degree views of Bangkok from its observation deck. The building provides an unforgettable experience with stunning city panoramas."
@@ -1130,11 +1130,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/baiyoke-observation-main.jpg",
+      "imageUrl": "/images/baiyoke-observation-main.jpg",
       "gallery": [
-        "/src/data/images/baiyoke-observation-main.jpg",
-        "/src/data/images/baiyoke-observation-1.jpg",
-        "/src/data/images/baiyoke-observation-2.jpg"
+        "/images/baiyoke-observation-main.jpg",
+        "/images/baiyoke-observation-1.jpg",
+        "/images/baiyoke-observation-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Baiyoke Observation Deck offers spectacular views of Bangkok from one of the city's tallest buildings. The observation deck provides perfect photo opportunities and city panoramas."
@@ -1147,9 +1147,9 @@
       "notes": "",
       "tags": ["Cultural", "Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/phra-tamnak-main.jpg",
+      "imageUrl": "/images/phra-tamnak-main.jpg",
       "gallery": [
-        "/src/data/images/phra-tamnak-main.jpg"
+        "/images/phra-tamnak-main.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Phra Tamnak Mountain Viewpoint offers stunning panoramic views of Pattaya Bay and the surrounding area. The viewpoint provides a perfect spot for photography and enjoying the natural beauty."
@@ -1162,10 +1162,10 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/grand-hyatt-main.jpeg",
+      "imageUrl": "/images/grand-hyatt-main.jpeg",
       "gallery": [
-        "/src/data/images/grand-hyatt-main.jpeg",
-        "/src/data/images/grand-hyatt-1.jpg"
+        "/images/grand-hyatt-main.jpeg",
+        "/images/grand-hyatt-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Grand Hyatt Erawan Bangkok offers luxurious accommodations with beautiful city views. The hotel provides excellent service and stunning vistas of Bangkok's skyline."
@@ -1202,11 +1202,11 @@
       "notes": "",
       "tags": ["Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/pratunam-main.jpg",
+      "imageUrl": "/images/pratunam-main.jpg",
       "gallery": [
-        "/src/data/images/pratunam-main.jpg",
-        "/src/data/images/pratunam-1.webp",
-        "/src/data/images/pratunam-2.jpg"
+        "/images/pratunam-main.jpg",
+        "/images/pratunam-1.webp",
+        "/images/pratunam-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Pratunam Night Market offers a vibrant shopping experience with authentic Thai street food and local products. The market provides a lively atmosphere and excellent value for money."
@@ -1219,12 +1219,12 @@
       "notes": "",
       "tags": ["Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/jodd-fair-1.jpg",
+      "imageUrl": "/images/jodd-fair-1.jpg",
       "gallery": [
-        "/src/data/images/jodd-fair-1.jpg",
-        "/src/data/images/jodd-fair-main.jpg",
-        "/src/data/images/jodd-fair-2.jpg",
-        "/src/data/images/jodd-fair-3.jpg"
+        "/images/jodd-fair-1.jpg",
+        "/images/jodd-fair-main.jpg",
+        "/images/jodd-fair-2.jpg",
+        "/images/jodd-fair-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Jodd Fairs Ratchada offers a modern night market experience with excellent Thai street food and shopping. The market provides a fun atmosphere and diverse food options."
@@ -1237,11 +1237,11 @@
       "notes": "",
       "tags": ["Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/hk-night-market-main.jpg",
+      "imageUrl": "/images/hk-night-market-main.jpg",
       "gallery": [
-        "/src/data/images/hk-night-market-main.jpg",
-        "/src/data/images/hk-night-market-1.jpg",
-        "/src/data/images/hk-night-market-2.jpg"
+        "/images/hk-night-market-main.jpg",
+        "/images/hk-night-market-1.jpg",
+        "/images/hk-night-market-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Huai Khwang Night Market is a local favorite offering authentic Thai street food and shopping. The market provides a genuine local experience with excellent food and reasonable prices."
@@ -1254,14 +1254,14 @@
       "notes": "",
       "tags": ["Unique Experiences", "Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/sooksiam-3.jpg",
+      "imageUrl": "/images/sooksiam-3.jpg",
       "gallery": [
-        "/src/data/images/sooksiam-3.jpg",
-        "/src/data/images/sooksiam-1.jpg",
-        "/src/data/images/sooksiam-2.jpg",
-        "/src/data/images/sooksiam-main.jpg",
-        "/src/data/images/sooksiam-4.jpg",
-        "/src/data/images/sooksiam-5.jpg"
+        "/images/sooksiam-3.jpg",
+        "/images/sooksiam-1.jpg",
+        "/images/sooksiam-2.jpg",
+        "/images/sooksiam-main.jpg",
+        "/images/sooksiam-4.jpg",
+        "/images/sooksiam-5.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Sooksiam offers a unique night market experience with authentic Thai cuisine and cultural activities. The market provides a blend of traditional and modern Thai culture."
@@ -1298,13 +1298,13 @@
       "notes": "",
       "tags": ["Thai Food", "Shopping"],
       "type": "destination",
-      "imageUrl": "/src/data/images/chatuchak-main.jpg",
+      "imageUrl": "/images/chatuchak-main.jpg",
       "gallery": [
-        "/src/data/images/chatuchak-main.jpg",
-        "/src/data/images/chatuchak-1.jpg",
-        "/src/data/images/chatuchak-2.jpg",
-        "/src/data/images/chatuchak-3.jpg",
-        "/src/data/images/chatuchak-4.jpg"
+        "/images/chatuchak-main.jpg",
+        "/images/chatuchak-1.jpg",
+        "/images/chatuchak-2.jpg",
+        "/images/chatuchak-3.jpg",
+        "/images/chatuchak-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Chatuchak Weekend Market is one of the world's largest weekend markets offering everything from clothing to antiques. The market provides an incredible shopping experience with thousands of vendors."
@@ -1317,13 +1317,13 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/silom-main.jpg",
+      "imageUrl": "/images/silom-main.jpg",
       "gallery": [
-        "/src/data/images/silom-main.jpg",
-        "/src/data/images/silom-1.jpg",
-        "/src/data/images/silom-2.jpg",
-        "/src/data/images/silom-3.jpg",
-        "/src/data/images/silom-4.jpg"
+        "/images/silom-main.jpg",
+        "/images/silom-1.jpg",
+        "/images/silom-2.jpg",
+        "/images/silom-3.jpg",
+        "/images/silom-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Silom Edge offers a modern shopping experience with various retail options and dining choices. The venue provides a convenient shopping destination in the heart of Bangkok."
@@ -1336,14 +1336,14 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/one-bangkok-main.jpg",
+      "imageUrl": "/images/one-bangkok-main.jpg",
       "gallery": [
-        "/src/data/images/one-bangkok-main.jpg",
-        "/src/data/images/one-bangkok-1.jpg",
-        "/src/data/images/one-bangkok-2.jpg",
-        "/src/data/images/one-bangkok-3.jpg",
-        "/src/data/images/one-bangkok-4.jpg",
-        "/src/data/images/one-bangkok-5.jpg"
+        "/images/one-bangkok-main.jpg",
+        "/images/one-bangkok-1.jpg",
+        "/images/one-bangkok-2.jpg",
+        "/images/one-bangkok-3.jpg",
+        "/images/one-bangkok-4.jpg",
+        "/images/one-bangkok-5.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "One Bangkok offers a comprehensive shopping and lifestyle experience with modern retail options and entertainment facilities. The venue provides a contemporary urban experience."
@@ -1356,11 +1356,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/emquartier-2.webp",
+      "imageUrl": "/images/emquartier-2.webp",
       "gallery": [
-        "/src/data/images/emquartier-2.webp",
-        "/src/data/images/emquartier-1.jpg",
-        "/src/data/images/emquartier-main.webp"
+        "/images/emquartier-2.webp",
+        "/images/emquartier-1.jpg",
+        "/images/emquartier-main.webp"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "EmQuartier offers a luxury shopping experience with high-end brands and fine dining options. The mall provides a sophisticated shopping environment with beautiful architecture."
@@ -1373,13 +1373,13 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/emsphere-main.webp",
+      "imageUrl": "/images/emsphere-main.webp",
       "gallery": [
-        "/src/data/images/emsphere-main.webp",
-        "/src/data/images/emsphere-1.webp",
-        "/src/data/images/emsphere-2.jpg",
-        "/src/data/images/emsphere-3.webp",
-        "/src/data/images/emsphere-4.webp"
+        "/images/emsphere-main.webp",
+        "/images/emsphere-1.webp",
+        "/images/emsphere-2.jpg",
+        "/images/emsphere-3.webp",
+        "/images/emsphere-4.webp"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "EmSphere offers a modern shopping experience with contemporary retail options and entertainment facilities. The mall provides a vibrant shopping environment with diverse offerings."
@@ -1392,10 +1392,10 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/centralworld-main.jpg",
+      "imageUrl": "/images/centralworld-main.jpg",
       "gallery": [
-        "/src/data/images/centralworld-main.jpg",
-        "/src/data/images/centralworld-1.jpg"
+        "/images/centralworld-main.jpg",
+        "/images/centralworld-1.jpg"
       ],
       "favorites": {"brian": true},
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
@@ -1409,12 +1409,12 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/iconsiam-main.jpg",
+      "imageUrl": "/images/iconsiam-main.jpg",
       "gallery": [
-        "/src/data/images/iconsiam-main.jpg",
-        "/src/data/images/iconsiam-1.jpg",
-        "/src/data/images/iconsiam-2.jpg",
-        "/src/data/images/iconsiam-3.jpg"
+        "/images/iconsiam-main.jpg",
+        "/images/iconsiam-1.jpg",
+        "/images/iconsiam-2.jpg",
+        "/images/iconsiam-3.jpg"
       ],
       "favorites": {"brian": true, "orn": true},
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
@@ -1428,13 +1428,13 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/siam-paragon-main.jpg",
+      "imageUrl": "/images/siam-paragon-main.jpg",
       "gallery": [
-        "/src/data/images/siam-paragon-main.jpg",
-        "/src/data/images/siam-paragon-1.jpg",
-        "/src/data/images/siam-paragon-2.jpg",
-        "/src/data/images/siam-paragon-3.jpg",
-        "/src/data/images/siam-paragon-4.jpg"
+        "/images/siam-paragon-main.jpg",
+        "/images/siam-paragon-1.jpg",
+        "/images/siam-paragon-2.jpg",
+        "/images/siam-paragon-3.jpg",
+        "/images/siam-paragon-4.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Siam Paragon is a luxury shopping mall offering high-end brands, fine dining, and entertainment options. The mall provides a premium shopping experience in the heart of Bangkok."
@@ -1471,12 +1471,12 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/terminal-21-bangkok-1.jpg",
+      "imageUrl": "/images/terminal-21-bangkok-1.jpg",
       "gallery": [
-        "/src/data/images/terminal-21-bangkok-1.jpg",
-        "/src/data/images/terminal-21-bangkok-main.jpg",
-        "/src/data/images/terminal-21-bangkok-2.jpg",
-        "/src/data/images/terminal-21-bangkok-3.jpeg"
+        "/images/terminal-21-bangkok-1.jpg",
+        "/images/terminal-21-bangkok-main.jpg",
+        "/images/terminal-21-bangkok-2.jpg",
+        "/images/terminal-21-bangkok-3.jpeg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Terminal 21 offers a unique shopping experience with airport-themed design and international city themes. The mall provides a fun and diverse shopping environment."
@@ -1501,11 +1501,11 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/central-pattaya-main.jpg",
+      "imageUrl": "/images/central-pattaya-main.jpg",
       "gallery": [
-        "/src/data/images/central-pattaya-main.jpg",
-        "/src/data/images/central-pattaya-1.jpg",
-        "/src/data/images/central-pattaya-2.jpg"
+        "/images/central-pattaya-main.jpg",
+        "/images/central-pattaya-1.jpg",
+        "/images/central-pattaya-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Central Festival Pattaya offers a comprehensive shopping experience with various retail options and dining choices. The mall provides a convenient shopping destination in Pattaya."
@@ -1530,10 +1530,10 @@
       "notes": "",
       "tags": [],
       "type": "destination",
-      "imageUrl": "/src/data/images/miniso-main.jpg",
+      "imageUrl": "/images/miniso-main.jpg",
       "gallery": [
-        "/src/data/images/miniso-main.jpg",
-        "/src/data/images/miniso-1.jpg"
+        "/images/miniso-main.jpg",
+        "/images/miniso-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "MINISO Asiatique offers affordable lifestyle products and accessories in a convenient location. The store provides quality items at reasonable prices."
@@ -1558,10 +1558,10 @@
       "notes": "",
       "tags": ["Views", "Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/khao-chi-main.jpg",
+      "imageUrl": "/images/khao-chi-main.jpg",
       "gallery": [
-        "/src/data/images/khao-chi-main.jpg",
-        "/src/data/images/khao-chi-1.jpg"
+        "/images/khao-chi-main.jpg",
+        "/images/khao-chi-1.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 4.0},
       "commentary": "Khao Chi Chan offers a unique shopping experience with traditional Thai products and souvenirs. The market provides a vibrant shopping environment with a mix of local and international products."
@@ -1574,10 +1574,10 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/yi-peng-main.jpg",
+      "imageUrl": "/images/yi-peng-main.jpg",
       "gallery": [
-        "/src/data/images/yi-peng-main.jpg",
-        "/src/data/images/yi-peng-1.jpg"
+        "/images/yi-peng-main.jpg",
+        "/images/yi-peng-1.jpg"
       ],
       "ratings": {"enjoyment": 5.0, "experience": 5.0, "value": 4.5},
       "favorites": {"brian": true, "orn": true},
@@ -1832,11 +1832,11 @@
       "category": "Unique Experiences",
       "notes": "",
       "type": "destination",
-      "imageUrl": "/src/data/images/space-and-time-main.jpg",
+      "imageUrl": "/images/space-and-time-main.jpg",
       "gallery": [
-        "/src/data/images/space-and-time-main.jpg",
-        "/src/data/images/space-and-time-1.jpg",
-        "/src/data/images/space-and-time-2.jpg"
+        "/images/space-and-time-main.jpg",
+        "/images/space-and-time-1.jpg",
+        "/images/space-and-time-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 3.5},
       "commentary": "Space and Time Cube offers an immersive experience combining art, technology, and interactive installations. The venue features cutting-edge digital art and multimedia exhibits that engage all the senses. Perfect for art enthusiasts and those interested in contemporary digital culture."
@@ -1899,12 +1899,12 @@
       "notes": "",
       "tags": ["Nature"],
       "type": "destination",
-      "imageUrl": "/src/data/images/sea-life-main.jpg",
+      "imageUrl": "/images/sea-life-main.jpg",
       "gallery": [
-        "/src/data/images/sea-life-main.jpg",
-        "/src/data/images/sea-life-1.jpg",
-        "/src/data/images/sea-life-2.jpeg",
-        "/src/data/images/sea-life-3.jpg"
+        "/images/sea-life-main.jpg",
+        "/images/sea-life-1.jpg",
+        "/images/sea-life-2.jpeg",
+        "/images/sea-life-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 3.5},
       "commentary": "SEA LIFE Bangkok Ocean World is one of Southeast Asia's largest aquariums, featuring thousands of marine creatures in themed exhibits. The aquarium includes a glass-bottom boat ride, feeding shows, and interactive touch pools. Perfect for families and marine life enthusiasts, offering an educational and entertaining experience in the heart of Bangkok."
@@ -1917,12 +1917,12 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/baan-rinrak-main.jpg",
+      "imageUrl": "/images/baan-rinrak-main.jpg",
       "gallery": [
-        "/src/data/images/baan-rinrak-main.jpg",
-        "/src/data/images/baan-rinrak-1.jpg",
-        "/src/data/images/baan-rinrak-2.jpg",
-        "/src/data/images/baan-rinrak-3.jpg"
+        "/images/baan-rinrak-main.jpg",
+        "/images/baan-rinrak-1.jpg",
+        "/images/baan-rinrak-2.jpg",
+        "/images/baan-rinrak-3.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 3.5},
       "commentary": ""
@@ -2019,10 +2019,10 @@
       "notes": "",
       "tags": ["Games"],
       "type": "destination",
-      "imageUrl": "/src/data/images/playerbox-main.jpg",
+      "imageUrl": "/images/playerbox-main.jpg",
       "gallery": [
-        "/src/data/images/playerbox-main.jpg",
-        "/src/data/images/playerbox-1.jpg"
+        "/images/playerbox-main.jpg",
+        "/images/playerbox-1.jpg"
       ],
       "ratings": {"enjoyment": 4.5, "experience": 4.5, "value": 4.0},
       "commentary": ""
@@ -2059,12 +2059,12 @@
       "notes": "",
       "tags": ["Views"],
       "type": "destination",
-      "imageUrl": "/src/data/images/sametnangshe-main.jpg",
+      "imageUrl": "/images/sametnangshe-main.jpg",
       "gallery": [
-        "/src/data/images/sametnangshe-main.jpg",
-        "/src/data/images/sametnangshe-1.jpg",
-        "/src/data/images/sametnangshe-2.jpg",
-        "/src/data/images/sametnangshe-3.jpg"
+        "/images/sametnangshe-main.jpg",
+        "/images/sametnangshe-1.jpg",
+        "/images/sametnangshe-2.jpg",
+        "/images/sametnangshe-3.jpg"
       ],
       "ratings": {"enjoyment": 4.5, "experience": 4.5, "value": 4.0},
       "commentary": ""
@@ -2077,11 +2077,11 @@
       "notes": "",
       "tags": ["Cafes"],
       "type": "restaurant",
-      "imageUrl": "/src/data/images/chocolate-factory-main.jpg",
+      "imageUrl": "/images/chocolate-factory-main.jpg",
       "gallery": [
-        "/src/data/images/chocolate-factory-main.jpg",
-        "/src/data/images/chocolate-factory-1.webp",
-        "/src/data/images/chocolate-factory-2.jpg"
+        "/images/chocolate-factory-main.jpg",
+        "/images/chocolate-factory-1.webp",
+        "/images/chocolate-factory-2.jpg"
       ],
       "ratings": {"enjoyment": 4.0, "experience": 4.0, "value": 3.5},
       "commentary": ""
@@ -2154,12 +2154,12 @@
       "notes": "",
       "tags": ["Nature", "Eco"],
       "type": "destination",
-      "imageUrl": "/src/data/images/chai-lai-main.jpg",
+      "imageUrl": "/images/chai-lai-main.jpg",
       "gallery": [
-        "/src/data/images/chai-lai-main.jpg",
-        "/src/data/images/chai-lai-1.jpg",
-        "/src/data/images/chai-lai-2.png",
-        "/src/data/images/chai-lai-3.png"
+        "/images/chai-lai-main.jpg",
+        "/images/chai-lai-1.jpg",
+        "/images/chai-lai-2.png",
+        "/images/chai-lai-3.png"
       ],
       "ratings": {"enjoyment": 4.5, "experience": 4.5, "value": 4.0},
       "commentary": ""

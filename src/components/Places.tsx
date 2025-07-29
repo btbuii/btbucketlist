@@ -157,7 +157,7 @@ const Places = () => {
   const [showAddForm, setShowAddForm] = useState(false);
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null);
   const [showModal, setShowModal] = useState(false);
-  const [slideDirection, setSlideDirection] = useState<'left' | 'right' | 'none'>('none');
+  // const [slideDirection, setSlideDirection] = useState<'left' | 'right' | 'none'>('none');
   const [newPlace, setNewPlace] = useState({
     name: '',
     address: '',
@@ -174,7 +174,7 @@ const Places = () => {
   const [galleryIndex, setGalleryIndex] = useState(0);
   const autoSlideIntervalRef = useRef<number | null>(null);
 
-  const regionOrder: Region[] = ['thailand', 'newyork', 'california', 'singapore', 'japan', 'china'];
+  // const regionOrder: Region[] = ['thailand', 'newyork', 'california', 'singapore', 'japan', 'china'];
 
   // Update carousel index when region changes
   useEffect(() => {
@@ -240,16 +240,16 @@ const Places = () => {
   }, [selectedRegion]);
 
   const handleRegionChange = (newRegion: Region) => {
-    const currentIndex = regionOrder.indexOf(selectedRegion);
-    const newIndex = regionOrder.indexOf(newRegion);
+    // const currentIndex = regionOrder.indexOf(selectedRegion);
+    // const newIndex = regionOrder.indexOf(newRegion);
     
-    if (newIndex > currentIndex) {
-      setSlideDirection('left');
-    } else if (newIndex < currentIndex) {
-      setSlideDirection('right');
-    } else {
-      setSlideDirection('none');
-    }
+    // if (newIndex > currentIndex) {
+    //   setSlideDirection('left');
+    // } else if (newIndex < currentIndex) {
+    //   setSlideDirection('right');
+    // } else {
+    //   setSlideDirection('none');
+    // }
 
     setSelectedRegion(newRegion);
     
@@ -480,30 +480,30 @@ const Places = () => {
     }
   };
 
-  const removePlace = (id: string) => {
-    setPlaces(prevPlaces => ({
-      ...prevPlaces,
-      [selectedRegion]: prevPlaces[selectedRegion as keyof PlacesData].filter(place => place.id !== id)
-    }));
-  };
+  // const removePlace = (id: string) => {
+  //   setPlaces(prevPlaces => ({
+  //     ...prevPlaces,
+  //     [selectedRegion]: prevPlaces[selectedRegion as keyof PlacesData].filter(place => place.id !== id)
+  //   }));
+  // };
 
-  const toggleFavorite = (id: string, person: 'brian' | 'orn') => {
-    setPlaces(prevPlaces => ({
-      ...prevPlaces,
-      [selectedRegion]: prevPlaces[selectedRegion as keyof PlacesData].map(place => {
-        if (place.id === id) {
-          return {
-            ...place,
-            favorites: {
-              ...place.favorites,
-              [person]: !place.favorites?.[person]
-            }
-          };
-        }
-        return place;
-      })
-    }));
-  };
+  // const toggleFavorite = (id: string, person: 'brian' | 'orn') => {
+  //   setPlaces(prevPlaces => ({
+  //     ...prevPlaces,
+  //     [selectedRegion]: prevPlaces[selectedRegion as keyof PlacesData].map(place => {
+  //       if (place.id === id) {
+  //         return {
+  //           ...place,
+  //           favorites: {
+  //             ...place.favorites,
+  //             [person]: !place.favorites?.[person]
+  //           }
+  //         };
+  //       }
+  //       return place;
+  //     })
+  //   }));
+  // };
 
   const openModal = (place: Place) => {
     setSelectedPlace(place);
@@ -859,13 +859,13 @@ const Places = () => {
               <div className="profile-images">
                 <div className="profile-image">
                   <img 
-                    src="/src/data/images/brian.jpg" 
+                    src="/images/brian.jpg" 
                     alt="Brian"
                   />
                 </div>
                 <div className="profile-image">
                   <img 
-                    src="/src/data/images/orn.jpg" 
+                    src="/images/orn.jpg" 
                     alt="Orn"
                   />
                 </div>
@@ -881,7 +881,7 @@ const Places = () => {
               <div className="legend-item">
                 <div className="legend-icon brian-legend">
                   <img 
-                    src="/src/data/images/brian.jpg" 
+                    src="/images/brian.jpg" 
                     alt="Brian"
                   />
                 </div>
@@ -890,7 +890,7 @@ const Places = () => {
               <div className="legend-item">
                 <div className="legend-icon orn-legend">
                   <img 
-                    src="/src/data/images/orn.jpg" 
+                    src="/images/orn.jpg" 
                     alt="Orn"
                   />
                 </div>
@@ -1161,7 +1161,7 @@ const Places = () => {
                         {place.favorites?.brian && (
                           <div className="favorite-indicator brian-favorite" title="Brian's Favorite">
                             <img 
-                              src="/src/data/images/brian.jpg" 
+                              src="/images/brian.jpg" 
                               alt="Brian"
                             />
                           </div>
@@ -1169,7 +1169,7 @@ const Places = () => {
                         {place.favorites?.orn && (
                           <div className="favorite-indicator orn-favorite" title="Orn's Favorite">
                             <img 
-                              src="/src/data/images/orn.jpg" 
+                              src="/images/orn.jpg" 
                               alt="Orn"
                             />
                           </div>
