@@ -5,8 +5,11 @@ import './components/Navbar.css';
 import './components/Places.css';
 
 function App() {
+  // Determine the basename based on the environment
+  const basename = process.env.NODE_ENV === 'production' ? '/btbucketlist' : '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="app">
         <Navbar />
         <main className="main-content">
