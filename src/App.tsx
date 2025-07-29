@@ -6,7 +6,7 @@ import './components/Places.css';
 
 function App() {
   // Determine the basename based on the environment
-  const basename = process.env.NODE_ENV === 'production' ? '/btbucketlist' : '/';
+  const basename = process.env.NODE_ENV === 'production' ? '/btbucketlist/' : '/';
 
   return (
     <Router basename={basename}>
