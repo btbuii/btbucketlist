@@ -3,6 +3,17 @@ import { Plus, Search, X, MapPin, Tag, FileText, ChevronLeft, ChevronRight, Glob
 import placesData from '../data/places.json';
 import travelInfoData from '../data/travel-info.json';
 
+// Function to resolve image paths based on environment
+const resolveImagePath = (path: string) => {
+  if (path.startsWith('http')) return path; // External URLs
+  if (path.startsWith('/images/')) {
+    // For local development, use relative path
+    // For production, use the base path
+    return process.env.NODE_ENV === 'production' ? `/btbucketlist${path}` : path;
+  }
+  return path;
+};
+
 interface Place {
   id: string;
   name: string;
@@ -859,13 +870,13 @@ const Places = () => {
               <div className="profile-images">
                 <div className="profile-image">
                   <img 
-                    src="/images/brian.jpg" 
+                    src={resolveImagePath("/images/brian.jpg")} 
                     alt="Brian"
                   />
                 </div>
                 <div className="profile-image">
                   <img 
-                    src="/images/orn.jpg" 
+                    src={resolveImagePath("/images/orn.jpg")} 
                     alt="Orn"
                   />
                 </div>
@@ -881,7 +892,7 @@ const Places = () => {
               <div className="legend-item">
                 <div className="legend-icon brian-legend">
                   <img 
-                    src="/images/brian.jpg" 
+                    src={resolveImagePath("/images/brian.jpg")} 
                     alt="Brian"
                   />
                 </div>
@@ -890,7 +901,7 @@ const Places = () => {
               <div className="legend-item">
                 <div className="legend-icon orn-legend">
                   <img 
-                    src="/images/orn.jpg" 
+                    src={resolveImagePath("/images/orn.jpg")} 
                     alt="Orn"
                   />
                 </div>
@@ -1154,14 +1165,14 @@ const Places = () => {
               <div className="places-grid">
                 {categoryPlaces.map(place => (
                   <div key={place.id} className="place-card" onClick={() => openModal(place)}>
-                    <div className="card-image" style={{ backgroundImage: `url(${place.imageUrl})` }}>
+                    <div className="card-image" style={{ backgroundImage: `url(${resolveImagePath(place.imageUrl)})` }}>
                       
                       {/* Favorite Indicators */}
                       <div className="favorite-indicators">
                         {place.favorites?.brian && (
                           <div className="favorite-indicator brian-favorite" title="Brian's Favorite">
                             <img 
-                              src="/images/brian.jpg" 
+                              src={resolveImagePath("/images/brian.jpg")} 
                               alt="Brian"
                             />
                           </div>
@@ -1169,7 +1180,7 @@ const Places = () => {
                         {place.favorites?.orn && (
                           <div className="favorite-indicator orn-favorite" title="Orn's Favorite">
                             <img 
-                              src="/images/orn.jpg" 
+                              src={resolveImagePath("/images/orn.jpg")} 
                               alt="Orn"
                             />
                           </div>
@@ -1204,7 +1215,7 @@ const Places = () => {
               <X size={24} />
             </button>
             {/* Modal Gallery */}
-            <div className="modal-image" style={{ backgroundImage: `url(${selectedPlace.gallery ? selectedPlace.gallery[galleryIndex] : selectedPlace.imageUrl})` }}>
+            <div className="modal-image" style={{ backgroundImage: `url(${selectedPlace.gallery ? resolveImagePath(selectedPlace.gallery[galleryIndex]) : resolveImagePath(selectedPlace.imageUrl)})` }}>
               {/* Slide number indicator */}
               {selectedPlace.gallery && selectedPlace.gallery.length > 1 && (
                 <div className="modal-gallery-slide-indicator">
