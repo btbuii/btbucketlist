@@ -1,0 +1,187 @@
+{
+  "thailand": {
+    "hero": {
+      "title": "Thailand",
+      "description": "Discover stunning landscapes, vibrant culture, and world-class cuisine",
+      "images": [
+        "https://images.pexels.com/photos/358229/pexels-photo-358229.jpeg?_gl=1*1qogi0b*_ga*MTI5MTY0Nzc1LjE3NTIyMDM0OTU.*_ga_8JE65Q40S6*czE3NTIyMDM0OTQkbzEkZzEkdDE3NTIyMDQxNjgkajU5JGwwJGgw",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&h=800&fit=crop",
+        "https://images.pexels.com/photos/6900881/pexels-photo-6900881.jpeg?w=1200&h=800&fit=crop",
+        "https://plus.unsplash.com/premium_photo-1661882283038-a3af3337783e?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1589932896376-5244c8898269?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1200&h=800&fit=crop"
+      ],
+      "highlights": [
+        { "shortText": "Street Food", "backgroundImage": "https://images.pexels.com/photos/2960155/pexels-photo-2960155.jpeg?_gl=1*3rny2q*_ga*MTI5MTY0Nzc1LjE3NTIyMDM0OTU.*_ga_8JE65Q40S6*czE3NTIzMjA1MTUkbzMkZzEkdDE3NTIzMjA1NzUkajYwJGwwJGgw?w=400&h=900&fit=crop" },
+        { "shortText": "Affordable Luxury", "backgroundImage": "https://cdn.mos.cms.futurecdn.net/GAmQFXw9ko3dCiLA8sbCRm.jpg?w=400&h=500&fit=crop" },
+        { "shortText": "Historical Landmarks", "backgroundImage": "https://www.elephanthills.com/wp-content/uploads/2023/11/Thailands-Cultural-845x684.jpg?w=400&h=500&fit=crop" },
+        { "shortText": "Rich Nightlife", "backgroundImage": "https://lirp.cdn-website.com/22be3408/dms3rep/multi/opt/ro-1920w.jpg?w=400&h=500&fit=crop" }
+      ]
+    },
+    "overview": "Thailand offers an incredible blend of ancient traditions and modern conveniences. From the bustling streets of Bangkok to the serene beaches of the islands, every region has its own unique charm. The country is known for its warm hospitality, delicious cuisine, and excellent value for money. Whether you're a first-time visitor or a seasoned traveler, Thailand never fails to surprise and delight.",
+    "destinationDetails": {
+      "language": "Thai (English widely spoken in tourist areas)",
+      "currency": "Thai Baht (THB) - 1 USD ≈ 35 THB",
+      "visa": "30-day visa-free for most nationalities",
+      "powerPlugs": "Type A, B, C (220V, 50Hz)",
+      "climate": "Tropical - Hot & humid year-round, monsoon season May-Oct",
+      "bestTime": "Nov-Feb (cooler, drier weather)"
+    },
+    "recommendedApps": [
+      { "name": "Grab", "description": "Ride-hailing and food delivery", "logo": "/src/assets/app-icons/grab.png" },
+      { "name": "Google Translate", "description": "Thai language translation", "logo": "/src/assets/app-icons/google-translate.png" },
+      { "name": "BTS Skytrain", "description": "Bangkok public transit", "logo": "/src/assets/app-icons/bts.png" },
+      { "name": "Wongnai", "description": "Restaurant reviews and recommendations", "logo": "/src/assets/app-icons/wongnai.png" },
+      { "name": "Agoda/Booking.com", "description": "Hotel bookings", "logo": "/src/assets/app-icons/agoda.png" },
+      { "name": "XE Currency", "description": "Real-time exchange rates", "logo": "/src/assets/app-icons/xe.png" }
+    ],
+    "flightInfo": {
+      "mainAirports": [
+        { "code": "BKK", "name": "Suvarnabhumi Airport (Bangkok)", "description": "International hub" },
+        { "code": "DMK", "name": "Don Mueang Airport (Bangkok)", "description": "Budget airlines" },
+        { "code": "HKT", "name": "Phuket International Airport", "description": "" },
+        { "code": "CNX", "name": "Chiang Mai International Airport", "description": "" }
+      ],
+      "flightTime": "18-24 hours from US West Coast",
+      "bestAirlines": "Thai Airways, EVA Air, Korean Air, Singapore Airlines",
+      "estimatedPrices": "Round-trip from $800 - $1,500 depending on season and airline"
+    },
+    "bestPlacesToStay": {
+      "bangkok": [
+        { "area": "Sukhumvit", "description": "Modern, convenient, great food scene" },
+        { "area": "Siam/Silom", "description": "Shopping and business district" },
+        { "area": "Riverside", "description": "Luxury hotels, beautiful views" },
+        { "area": "Khao San Road", "description": "Budget backpacker area" }
+      ],
+      "islands": [
+        { "area": "Phuket", "description": "Patong (party), Kata/Karon (family)" },
+        { "area": "Koh Samui", "description": "Chaweng (beach), Lamai (quieter)" },
+        { "area": "Koh Phi Phi", "description": "Small island, stunning beaches" }
+      ]
+    },
+    "idealItineraries": [
+      {
+        "title": "1 Week - Bangkok Focus",
+        "description": "Perfect for first-time visitors who want to experience the heart of Thailand",
+        "days": [
+          { "period": "Days 1-3", "description": "Bangkok (temples, shopping, food)" },
+          { "period": "Days 4-5", "description": "Ayutthaya day trip" },
+          { "period": "Days 6-7", "description": "Bangkok (markets, nightlife)" }
+        ]
+      },
+      {
+        "title": "2 Weeks - Classic Thailand",
+        "description": "The perfect introduction to Thailand's diverse regions",
+        "days": [
+          { "period": "Days 1-4", "description": "Bangkok" },
+          { "period": "Days 5-7", "description": "Chiang Mai" },
+          { "period": "Days 8-11", "description": "Phuket/Koh Samui" },
+          { "period": "Days 12-14", "description": "Bangkok (shopping, last meals)" }
+        ]
+      },
+      {
+        "title": "3 Weeks - Complete Experience",
+        "description": "Immerse yourself in all aspects of Thai culture and landscapes",
+        "days": [
+          { "period": "Days 1-5", "description": "Bangkok" },
+          { "period": "Days 6-9", "description": "Chiang Mai + Pai" },
+          { "period": "Days 10-14", "description": "Phuket + Phi Phi" },
+          { "period": "Days 15-17", "description": "Koh Samui" },
+          { "period": "Days 18-21", "description": "Bangkok (relax, shop)" }
+        ]
+      }
+    ]
+  },
+  "newyork": {
+    "hero": {
+      "title": "New York",
+      "description": "Experience the energy, diverse culture, and iconic landmarks of New York City",
+      "images": [
+        "https://images.unsplash.com/photo-1522083165195-3424ed129620?q=80&w=1897&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1502602898535-0b4c4c8b0b4b?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1502602898535-0b4c4c8b0b4b?w=1200&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=800&fit=crop"
+      ],
+      "highlights": [
+        { "shortText": "Food Culture", "backgroundImage": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=500&fit=crop" },
+        { "shortText": "Iconic Skyline", "backgroundImage": "https://images.unsplash.com/photo-1522083165195-3424ed129620?w=400&h=500&fit=crop" },
+        { "shortText": "Urban Parks", "backgroundImage": "https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?w=400&h=500&fit=crop" },
+        { "shortText": "World-Class Shopping", "backgroundImage": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=500&fit=crop" }
+      ]
+    },
+    "overview": "New York City is the ultimate urban playground, offering world-class dining, shopping, and entertainment. The city's energy is infectious, with something happening around every corner. From iconic landmarks to hidden gems, NYC rewards exploration and curiosity. The diverse neighborhoods each have their own character, making every visit feel like discovering a new city.",
+    "destinationDetails": {
+      "language": "English (official language)",
+      "currency": "US Dollar (USD)",
+      "visa": "ESTA required for visa waiver countries",
+      "powerPlugs": "Type A, B (120V, 60Hz)",
+      "climate": "Four seasons - Spring/Fall most pleasant",
+      "bestTime": "Apr-May & Sep-Nov (mild weather)"
+    },
+    "recommendedApps": [
+      { "name": "NYC Subway", "description": "Public transit navigation", "logo": "/src/assets/app-icons/nyc-subway.png" },
+      { "name": "Uber/Lyft", "description": "Ride-hailing services", "logo": "/src/assets/app-icons/uber.png" },
+      { "name": "OpenTable", "description": "Restaurant reservations", "logo": "/src/assets/app-icons/opentable.png" },
+      { "name": "Yelp", "description": "Restaurant and business reviews", "logo": "/src/assets/app-icons/yelp.png" },
+      { "name": "Citymapper", "description": "Multi-modal transit planning", "logo": "/src/assets/app-icons/citymapper.png" },
+      { "name": "TodayTix", "description": "Broadway and theater tickets", "logo": "/src/assets/app-icons/todaytix.png" }
+    ],
+    "flightInfo": {
+      "mainAirports": [
+        { "code": "JFK", "name": "John F. Kennedy International Airport", "description": "" },
+        { "code": "LGA", "name": "LaGuardia Airport", "description": "Domestic focus" },
+        { "code": "EWR", "name": "Newark Liberty International Airport", "description": "Located in New Jersey" }
+      ],
+      "flightTime": "5-6 hours from US West Coast",
+      "bestAirlines": "Delta, American, United, JetBlue",
+      "estimatedPrices": "Round-trip from $300 - $600 depending on season and airline"
+    },
+    "bestPlacesToStay": {
+      "manhattan": [
+        { "area": "Midtown", "description": "Tourist attractions, shopping" },
+        { "area": "Upper East Side", "description": "Museums, upscale dining" },
+        { "area": "SoHo", "description": "Shopping, trendy restaurants" },
+        { "area": "West Village", "description": "Charming, great food scene" }
+      ],
+      "otherBoroughs": [
+        { "area": "Brooklyn", "description": "Williamsburg, DUMBO, Park Slope" },
+        { "area": "Queens", "description": "Long Island City, Astoria" }
+      ]
+    },
+    "idealItineraries": [
+      {
+        "title": "1 Week - NYC Essentials",
+        "description": "Hit all the major highlights for first-time visitors",
+        "days": [
+          { "period": "Days 1-2", "description": "Midtown (Times Square, Empire State)" },
+          { "period": "Days 3-4", "description": "Museums (MoMA, Met, Natural History)" },
+          { "period": "Days 5-6", "description": "Downtown (SoHo, Village, Financial District)" },
+          { "period": "Day 7", "description": "Brooklyn Bridge, DUMBO" }
+        ]
+      },
+      {
+        "title": "2 Weeks - Deep Dive",
+        "description": "Explore beyond the tourist hotspots and discover local favorites",
+        "days": [
+          { "period": "Days 1-4", "description": "Manhattan (all major attractions)" },
+          { "period": "Days 5-7", "description": "Brooklyn (Williamsburg, Park Slope)" },
+          { "period": "Days 8-10", "description": "Queens (Astoria, Flushing)" },
+          { "period": "Days 11-14", "description": "Manhattan (shopping, shows, food)" }
+        ]
+      },
+      {
+        "title": "3 Weeks - NYC + Day Trips",
+        "description": "Experience the city and its surrounding areas for a complete New York experience",
+        "days": [
+          { "period": "Days 1-7", "description": "Manhattan" },
+          { "period": "Days 8-10", "description": "Brooklyn" },
+          { "period": "Days 11-13", "description": "Queens" },
+          { "period": "Days 14-16", "description": "Day trips (Hudson Valley, Long Island)" },
+          { "period": "Days 17-21", "description": "Manhattan (relax, explore neighborhoods)" }
+        ]
+      }
+    ]
+  }
+} 
