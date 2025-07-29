@@ -1,17 +1,12 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
-import { Plus, Search, X, MapPin, Tag, FileText, ChevronLeft, ChevronRight, Globe, Banknote, FileCheck, Zap, CloudRain, Calendar, Smartphone, ExternalLink } from 'lucide-react';
+import { Search, X, MapPin, Tag, FileText, ChevronLeft, ChevronRight, Globe, Banknote, FileCheck, Zap, CloudRain, Calendar, Smartphone, ExternalLink } from 'lucide-react';
 import placesData from '../data/places.json';
 import travelInfoData from '../data/travel-info.json';
 
 // Function to resolve image paths based on environment
 const resolveImagePath = (path: string) => {
   if (path.startsWith('http')) return path; // External URLs
-  if (path.startsWith('/images/')) {
-    // For local development, use relative path
-    // For production, use the base path
-    return process.env.NODE_ENV === 'production' ? `/btbucketlist${path}` : path;
-  }
-  return path;
+  return path; // Vite will handle the base path automatically
 };
 
 interface Place {
@@ -159,24 +154,15 @@ const getHeroData = (region: Region) => {
 };
 
 const Places = () => {
-  const [places, setPlaces] = useState<PlacesData>(placesData as PlacesData);
+  const [places] = useState<PlacesData>(placesData as PlacesData);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<Region>('thailand');
   const [placeTypeFilter, setPlaceTypeFilter] = useState<'all' | 'restaurants' | 'attractions'>('all');
   const [thailandLocationFilter, setThailandLocationFilter] = useState<'everywhere' | 'bangkok' | 'phuket' | 'pattaya' | 'chiang-mai' | 'isaan'>('everywhere');
-  const [showAddForm, setShowAddForm] = useState(false);
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null);
   const [showModal, setShowModal] = useState(false);
   // const [slideDirection, setSlideDirection] = useState<'left' | 'right' | 'none'>('none');
-  const [newPlace, setNewPlace] = useState({
-    name: '',
-    address: '',
-    category: '',
-    notes: '',
-    type: 'restaurant' as 'restaurant' | 'destination',
-    imageUrl: ''
-  });
 
   // Carousel state
   const [heroImageIndex, setHeroImageIndex] = useState(0);
@@ -468,28 +454,7 @@ const Places = () => {
     return grouped;
   }, [filteredPlaces, selectedRegion, thailandCategories, newYorkCategories, californiaCategories, singaporeCategories, japanCategories, chinaCategories]);
 
-  const addPlace = () => {
-    if (newPlace.name && newPlace.address) {
-      const place: Place = {
-        id: Date.now().toString(),
-        ...newPlace,
-        ratings: {
-          taste: 4.0,
-          experience: 4.0,
-          value: 4.0
-        },
-        commentary: "This place offers a unique blend of authentic flavors and modern atmosphere. The service is consistently excellent, and the ambiance perfectly captures the local culture. Whether you're visiting for the first time or returning as a regular, you'll find something new to appreciate with each visit."
-      };
-      
-      setPlaces(prevPlaces => ({
-        ...prevPlaces,
-        [selectedRegion]: [...prevPlaces[selectedRegion as keyof PlacesData], place]
-      }));
-      
-      setNewPlace({ name: '', address: '', category: '', notes: '', type: 'restaurant', imageUrl: '' });
-      setShowAddForm(false);
-    }
-  };
+
 
   // const removePlace = (id: string) => {
   //   setPlaces(prevPlaces => ({
@@ -1040,116 +1005,10 @@ const Places = () => {
             </div>
           </div>
 
-          <button
-            onClick={() => setShowAddForm(true)}
-            className="add-place-btn"
-          >
-            <Plus size={20} />
-            Add Place
-          </button>
+
         </div>
 
-      {/* Add Place Form */}
-      {showAddForm && (
-        <div className="add-form-overlay">
-          <div className="add-form">
-            <div className="form-header">
-              <h3>Add New Place</h3>
-              <button
-                onClick={() => setShowAddForm(false)}
-                className="close-btn"
-              >
-                <X size={20} />
-              </button>
-            </div>
-            
-            <div className="form-group">
-              <label>Name *</label>
-              <input
-                type="text"
-                value={newPlace.name}
-                onChange={(e) => setNewPlace({...newPlace, name: e.target.value})}
-                placeholder="Place name"
-              />
-            </div>
 
-            <div className="form-group">
-              <label>Address *</label>
-              <input
-                type="text"
-                value={newPlace.address}
-                onChange={(e) => setNewPlace({...newPlace, address: e.target.value})}
-                placeholder="Full address"
-              />
-            </div>
-
-            <div className="form-row">
-              <div className="form-group">
-                <label>Type</label>
-                <select
-                  value={newPlace.type}
-                  onChange={(e) => setNewPlace({...newPlace, type: e.target.value as 'restaurant' | 'destination'})}
-                >
-                  <option value="restaurant">Restaurant</option>
-                  <option value="destination">Destination</option>
-                </select>
-              </div>
-
-              <div className="form-group">
-                <label>Category</label>
-                <select
-                  value={newPlace.category}
-                  onChange={(e) => setNewPlace({...newPlace, category: e.target.value})}
-                >
-                  <option value="">Select Category</option>
-                  {(() => {
-                    switch (selectedRegion) {
-                      case 'thailand': return thailandCategories;
-                      case 'newyork': return newYorkCategories;
-                      case 'california': return californiaCategories;
-                      case 'singapore': return singaporeCategories;
-                      case 'japan': return japanCategories;
-                      case 'china': return chinaCategories;
-                      default: return [];
-                    }
-                  })().map(category => (
-                    <option key={category} value={category}>{category}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
-
-            <div className="form-group">
-              <label>Notes</label>
-              <textarea
-                value={newPlace.notes}
-                onChange={(e) => setNewPlace({...newPlace, notes: e.target.value})}
-                placeholder="Additional notes or description"
-                rows={3}
-              />
-            </div>
-
-            <div className="form-group">
-              <label>Image URL</label>
-              <input
-                type="url"
-                value={newPlace.imageUrl}
-                onChange={(e) => setNewPlace({...newPlace, imageUrl: e.target.value})}
-                placeholder="https://example.com/image.jpg"
-              />
-            </div>
-
-            <div className="form-actions">
-              <button onClick={() => setShowAddForm(false)} className="cancel-btn">
-                Cancel
-              </button>
-              <button onClick={addPlace} className="save-btn">
-                Save Place
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
 
         {/* Places by Category */}
         {Object.entries(placesByCategory).map(([category, categoryPlaces]) => (
